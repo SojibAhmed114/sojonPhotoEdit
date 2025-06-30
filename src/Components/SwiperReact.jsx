@@ -17,7 +17,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 export default function SwiperReact() {
   return (
-    <section className="max-w-7xl mx-auto ">
+    <section>
       <div className="m-5">
         <Swiper
           spaceBetween={30}
@@ -29,7 +29,7 @@ export default function SwiperReact() {
           pagination={{
             clickable: true,
           }}
-          navigation={false} // 👈 this removes < > arrows
+          navigation={false} // 
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >

@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Header = () => {
   return (
-    <div className="navbar bg-base-100  max-w-7xl mx-auto">
+    <div className="navbar bg-base-100 max-w-7xl mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -18,7 +17,7 @@ const Header = () => {
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
@@ -32,7 +31,7 @@ const Header = () => {
                     <a>Newbron</a>
                   </li>
                   <li>
-                    <a>creat Shadow and White Background Service</a>
+                    <a>create Shadow and White Background Service</a>
                   </li>
                   <li>
                     <a>Natural Shadow and white Background Service</a>
@@ -132,8 +131,8 @@ const Header = () => {
           </ul>
         </div>
         <a className="text-lg md:text-xl font-bold">
-          <span className="flex  items-center text-base">
-            <img src="../../public/vite.svg" alt="" /> Photo Edit Bd
+          <span className="flex  items-center ">
+             Photo Edit Bd
           </span>
         </a>
       </div>
